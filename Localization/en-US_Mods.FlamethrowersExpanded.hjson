@@ -2,7 +2,7 @@
 
 Items: {
 	ConcentratedGel: {
-		Tooltip: "Triple the gel, triple the damage!"
+		Tooltip: Triple the gel, triple the damage!
 		DisplayName: Concentrated Gel
 	}
 }
