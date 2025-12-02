@@ -1,0 +1,3 @@
+displayName = Flamethrowers Expanded
+author = NishTheFish
+version = 0.1
