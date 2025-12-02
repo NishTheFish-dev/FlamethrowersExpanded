@@ -4,11 +4,11 @@ using Terraria.ModLoader;
 
 namespace FlamethrowersExpanded.Content.Items
 {
-    public class Gel2 : ModItem
+    public class ConcentratedGel : ModItem
     {
         public override void SetDefaults()
         {
-            Item.damage = 5;
+            Item.damage = 3;
             Item.DamageType = DamageClass.Ranged;
             Item.width = 16;
             Item.height = 16;
@@ -23,7 +23,7 @@ namespace FlamethrowersExpanded.Content.Items
         public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
+			recipe.AddIngredient(ItemID.Gel, 3);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}
